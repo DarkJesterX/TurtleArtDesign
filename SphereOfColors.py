@@ -1,6 +1,6 @@
 #MainFile.py
 import turtle
-turtle.tracer  (0)
+
 bob = turtle.Turtle ()
 bob.speed (0)#Sets the speed to the fastest.
 
