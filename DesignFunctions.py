@@ -1,6 +1,4 @@
 #Defines the function polygon.
-from Jump import *
-
 def polygon (t, dist, sides):
     t.begin_fill ()
     angle = 360/sides
