@@ -38,6 +38,6 @@ for times in range(15):
 jump (bob, 0, 0)
 for times in range (20):
     jump (bob, 0, 0)
-    coolcircle (bob, "white", 1, 30, 100) #I called the function coolcircle from my other circle which accepts turtle, color, radius, distance, and angle as its parameters.
+    coolcircle (bob, "white", 1, 30, 100) #I called the function coolcircle from my other file which accepts turtle, color, radius, distance, and angle as its parameters.
     bob.left (5)
  
