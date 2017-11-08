@@ -4,14 +4,14 @@ import turtle
 bob = turtle.Turtle ()
 bob.speed (0)#Sets the speed to the fastest.
 
-from DesignFunctions import * #Imports every function from myShapes.py
+from DesignFunctions import * #Imports every function from my function file.
 
 turtle.bgcolor("black")#Sets the background to black.
 
 jump (bob, 0, 0)
 for times in range (5): #Repeats these codes 7 times.
     sun (bob, "red", 18) #This calls the function sun and it accepts the turtle name, color, and distance as its parameters.
-    jump (bob, 0, 0)
+    jump (bob, 0, 0) #This makes it so that the pen moves to 0,0 without the pen drawing an unnecessary lines.
     sun (bob, "orange", 18)
     jump (bob, 0, 0)
     sun (bob, "yellow", 18)
